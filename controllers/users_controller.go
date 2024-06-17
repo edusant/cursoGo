@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"../models"
+	"github.com/edusant/cursoGo/models"
 )
 
 func GetUsers(w http.ResponseWriter, r *http.Request) {
