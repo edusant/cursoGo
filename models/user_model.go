@@ -5,7 +5,6 @@ type User struct {
 	Nome string `json:"nome"`
 }
 
-// Dummy data for demonstration
 func GetUsers() []User {
 	users := []User{
 		{ID: 1, Nome: "Alice"},
